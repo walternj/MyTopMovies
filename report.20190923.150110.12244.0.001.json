@@ -1,0 +1,433 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190923.150110.12244.0.001.json",
+    "dumpEventTime": "2019-09-23T15:01:10Z",
+    "dumpEventTimeStamp": "1569243670563",
+    "processId": 12244,
+    "cwd": "C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies",
+    "commandLine": [
+      "C:\\Users\\walte\\node_modules\\.bin\\\\..\\node\\bin\\node",
+      "C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies\\node_modules\\react-native\\scripts\\..\\cli.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.8.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.8.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.8.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18985",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+        "speed": 2712,
+        "user": 1601515,
+        "nice": 0,
+        "sys": 1833562,
+        "idle": 3068281,
+        "irq": 108171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+        "speed": 2712,
+        "user": 1764906,
+        "nice": 0,
+        "sys": 1552156,
+        "idle": 3186031,
+        "irq": 30453
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+        "speed": 2712,
+        "user": 1817218,
+        "nice": 0,
+        "sys": 1717546,
+        "idle": 2968328,
+        "irq": 25953
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+        "speed": 2712,
+        "user": 1789984,
+        "nice": 0,
+        "sys": 1757046,
+        "idle": 2956062,
+        "irq": 23390
+      }
+    ],
+    "host": "Walter-Surface"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff79dd26d99",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79dd2b38c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79dd2a338",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79de14f3b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e5fbc1e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e5e3f6a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e47567c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e47d5af",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e473843",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e4720d4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e490bb5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e246f2d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79ea1b06d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e9d0a33",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e9ce5d5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e98ad4a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79ea6f414",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e98f51c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e9e3922",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e9ae512",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e98cd3c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e4c1034",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e4c1143",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e4c1812",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79e399b25",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79de878a1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79de876ce",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79de67082",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79deb6494",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79deb303c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79ddddc42",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79de38c93",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79dcfc8dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff79eb0e6e8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffb3ea06fd4",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffb3effb1f1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 49049600,
+    "totalCommittedMemory": 49049600,
+    "usedMemory": 39895896,
+    "availableMemory": 2158715952,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047264,
+        "available": 64
+      },
+      "old_space": {
+        "memorySize": 37892096,
+        "committedMemory": 37892096,
+        "capacity": 37789768,
+        "used": 29919080,
+        "available": 7870688
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 895712,
+        "used": 627776,
+        "available": 267936
+      },
+      "map_space": {
+        "memorySize": 1839104,
+        "committedMemory": 1839104,
+        "capacity": 1834448,
+        "used": 1300080,
+        "available": 534368
+      },
+      "large_object_space": {
+        "memorySize": 7008256,
+        "committedMemory": 7008256,
+        "capacity": 6966280,
+        "used": 6966280,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 17.015,
+    "kernelCpuSeconds": 10.171,
+    "cpuConsumptionPercent": 7.99588,
+    "maxRss": 127533056,
+    "pageFaults": {
+      "IORequired": 105715,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 53066,
+      "writes": 17105
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies",
+    "ADSK_CLM_WPAD_PROXY_CHECK": "FALSE",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ALTERAOCLSDKROOT": "C:\\altera\\14.1\\hld",
+    "ANDROID_HOME": "C:\\Users\\walte\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\walte\\AppData\\Roaming",
+    "CARBON_MEM_DISABLE": "1",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132096661063954818",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "WALTER-SURFACE",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FITTERDIR": "C:\\Wincupl\\Wincupl\\Fitters",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\walte",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_212",
+    "KICAD_SYMBOL_DIR": "C:\\Program Files\\KiCad\\share\\kicad\\library",
+    "KICAD_TEMPLATE_DIR": "C:\\Program Files\\KiCad\\share\\kicad\\template",
+    "KISYS3DMOD": "C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d",
+    "KISYSMOD": "C:\\Program Files\\KiCad\\share\\kicad\\modules",
+    "LANG": "fr_FR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\walte\\AppData\\Local",
+    "LOGONSERVER": "\\\\WALTER-SURFACE",
+    "MCC_INCLUDE": "C:\\Program Files (x86)\\Microchip\\xc8\\v1.45/h",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\walte\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\walte\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies\\node_modules\\react-native\\scripts\\node_modules\\.bin;C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies\\node_modules\\react-native\\node_modules\\.bin;C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies\\node_modules\\node_modules\\.bin;C:\\Users\\walte\\Documents\\React-Native\\MyTopMovies\\node_modules\\.bin;C:\\Users\\walte\\Documents\\React-Native\\node_modules\\.bin;C:\\Users\\walte\\Documents\\node_modules\\.bin;C:\\Users\\walte\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Embarcadero\\Studio\\20.0\\bin;C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\20.0\\Bpl;C:\\Program Files (x86)\\Embarcadero\\Studio\\20.0\\bin64;C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\20.0\\Bpl\\Win64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Measurement Computing\\DAQ\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\mingw-w64\\x86_64-7.2.0-posix-seh-rt_v5-rev1\\mingw64\\bin;C:\\Program Files\\dotnet\\;C:\\avr-gcc-7.2.0-x64-mingw\\bin;C:\\avr-gcc-7.2.0-x64-mingw\\avr\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microchip\\xc8\\v2.00\\bin;C:\\PROGRA~2\\PICC;C:\\Program Files (x86)\\Microchip\\xc16\\v1.35\\bin;C:\\Program Files (x86)\\Microchip\\xc8\\v1.41\\bin;C:\\Program Files (x86)\\Microchip\\xc8\\v1.45\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Redis\\;C:\\Program Files\\MongoDB\\Server\\4.0\\bin;C:\\sqlite3;C:\\Program Files\\Git\\cmd;C:\\Wincupl\\WINCUPL\\EXE;C:\\Wincupl\\WINCUPL\\FITTERS;C:\\Users\\walte\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\walte\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\walte\\AppData\\Roaming\\npm;C:\\Users\\walte\\AppData\\Local\\Yarn\\bin;C:\\Users\\walte\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\walte\\AppData\\Local\\Android\\Sdk\\emulator;C:\\Users\\walte\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\walte\\AppData\\Local\\Android\\Sdk\\tools\\bin;C:\\Users\\walte\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\Java\\jdk1.8.0_212\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\walte\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "QSYS_ROOTDIR": "C:\\altera\\14.1\\quartus\\sopc_builder\\bin",
+    "QUARTUS_ROOTDIR": "C:\\altera\\14.1\\quartus",
+    "RCT_METRO_PORT": "8081",
+    "SESSIONNAME": "Console",
+    "SOPC_KIT_NIOS2": "C:\\altera\\14.1\\nios2eds",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\walte\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.38.1",
+    "TMP": "C:\\Users\\walte\\AppData\\Local\\Temp",
+    "USERDOMAIN": "WALTER-SURFACE",
+    "USERDOMAIN_ROAMINGPROFILE": "WALTER-SURFACE",
+    "USERNAME": "walte",
+    "USERPROFILE": "C:\\Users\\walte",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Users\\walte\\node_modules\\node\\bin\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
