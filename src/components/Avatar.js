@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Image, TouchableOpacity } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux'
 
 import ImagePicker from 'react-native-image-picker'
@@ -47,6 +47,6 @@ const styles = StyleSheet.create({
       borderRadius: 50,
       borderColor: '#9B9B9B',
       borderWidth: 2,
-    }
+    },
   })
   

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect, Dimensions } from 'react';
 import { 
+    View,
     StyleSheet,
     Image, 
     TextInput, 
@@ -8,11 +9,10 @@ import {
 
 import * as Animatable from 'react-native-animatable'
 
-export default function components() {
-
+export default function searchBar() {
+    
     return(
-        <Animatable.View style={styles.searchBar} 
-            animation="slideInRight" duration= {500} >
+        <View style={styles.searchBar}>
             <TextInput style={styles.textInput} 
                 placeholder="Rechercher un film..."
                 onSubmitEditing= {() =>_searchFilms()}
@@ -24,7 +24,7 @@ export default function components() {
                 <Image style = {styles.icon}
                     source= {require('../Images/search.png')}  />
             </TouchableOpacity> 
-        </Animatable.View>
+        </View>
     )
 }
 
@@ -38,7 +38,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
         paddingVertical: 0,
         borderWidth: 5,
-        borderColor: '#000'
+        borderColor: '#000',
+
     },
     textInput: {
         flex: 1,

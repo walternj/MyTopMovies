@@ -93,14 +93,14 @@ export default function FilmDetail ({ navigation }) {
     }
 
     _displayButtonViewed = () => {
-        var buttonText = 'MARQUER COMME VU'
+        var buttonText = 'MARK AS SEEN'
         var bckColorBtn = '#08F'
         
         if (viewedMovies.findIndex(item => item.id === film.id) !== -1) {
-            buttonText = 'MARQUER COMME NON VU'
+            buttonText = 'MARK AS NOT SEEN'
             bckColorBtn = '#666'
         } else {
-            buttonText = 'MARQUER COMME VU'
+            buttonText = 'MARK AS SEEN'
             bckColorBtn = '#08F'
         }
         return(
@@ -127,16 +127,16 @@ export default function FilmDetail ({ navigation }) {
                         {_displayFavoriteImage()}          
                     </TouchableOpacity>        
                     <Text style={styles.description_text}>{film.overview}</Text>
-                    <Text style={styles.default_text}>Sorti le {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
+                    <Text style={styles.default_text}>Released on : {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
                     <Text style={styles.default_text}>Note : {film.vote_average} / 10</Text>
-                    <Text style={styles.default_text}>Nombre de votes : {film.vote_count}</Text>
+                    <Text style={styles.default_text}>Votes : {film.vote_count}</Text>
                     <Text style={styles.default_text}>Budget : {numeral(film.budget).format('0,0[.]00 $')}</Text>
-                    <Text style={styles.default_text}>Genre(s) : {film.genres.map(function(genre){
+                    <Text style={styles.default_text}>{film.genres.map(function(genre){
                         return genre.name;
                         }).join(" / ")}
                     </Text>
-                    <Text style={styles.default_text}>Langue d'origine: {film.original_language} </Text>
-                    <Text style={styles.default_text}>Titre d'origine: {film.original_title} </Text>
+                    <Text style={styles.default_text}>Original language: {film.original_language} </Text>
+                    <Text style={styles.default_text}>Original title: {film.original_title} </Text>
                     <Text style={styles.default_text}>Companie(s) : {film.production_companies.map(function(company){
                         return company.name;
                         }).join(" / ")}

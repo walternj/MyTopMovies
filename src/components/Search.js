@@ -67,7 +67,6 @@ export default function Search({ navigation }){
                 totalPages={totalPages}
             />
             {_displayLoading()}  
-
         </View>
     )
 } 

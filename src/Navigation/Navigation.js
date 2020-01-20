@@ -25,7 +25,7 @@ const SearchStackNavigator = createStackNavigator({
     FilmDetail: {
         screen: FilmDetail,
         navigationOptions : {
-            title: 'Details Du Film'
+            title: 'Movie Details',
         }
     },  
 })
@@ -34,7 +34,7 @@ const FavoritesStackNavigator = createStackNavigator({
     Favorites: {
       screen: Favorites,
       navigationOptions: {
-        title: 'Ma Liste Des Films Favoris',
+        title: 'My Favorite Movies List',
         headerLeft: <Avatar/>,
       },
     
@@ -42,7 +42,7 @@ const FavoritesStackNavigator = createStackNavigator({
     FilmDetail: {
       screen: FilmDetail,
       navigationOptions : {
-        title: 'Details Du Film'
+        title: 'Movie Details'
       }
     },
     
@@ -53,13 +53,14 @@ const HomePopularListStackNavigator = createStackNavigator({
     Home: {
         screen: HomePopularList,
         navigationOptions: {
-            headerTitle: 'Le Top des Films les Plus Recents',   
+            headerTitle: ' Top Recent Movies',   
+           
         }
     },
     FilmDetail: {
         screen: FilmDetail,
         navigationOptions : {
-            title: 'Details Du Film'
+            title: 'Movie Details'
         }
     }
 })
@@ -68,19 +69,17 @@ const ViewedsStackNavigator = createStackNavigator({
     Favorites: {
       screen: Vieweds,
       navigationOptions: {
-        title: 'Ma Liste Des Films Déjà Vus',
+        title: 'My List of Viewed Movies',
         headerRight: <Avatar/>
       }
     },
     FilmDetail: {
       screen: FilmDetail,
         navigationOptions : {
-            title: 'Details Du Film'
+            title: 'Movie Details'
         }
     }
 })
-
-
 
 const MoviesTabNavigator = createBottomTabNavigator({
 
@@ -138,6 +137,7 @@ const MoviesTabNavigator = createBottomTabNavigator({
         showIcon: true,
         activeBackgroundColor: '#DDDDDD',
         inactiveBackgroundColor: '#FFFFFF',
+        
     }
 })
 

@@ -1,5 +1,5 @@
 import React, { useState ,useEffect } from 'react'
-import { View, Text, Animated, Dimensions } from 'react-native'
+import { Animated, Dimensions } from 'react-native'
 
 const FadeIn = (props) => {
     const [positionLeft] = useState(new Animated.Value(Dimensions.get('window').width- 50))
@@ -13,7 +13,7 @@ const FadeIn = (props) => {
               bounciness: 25,
             }
           ).start()
-        })
+        },[])
     } 
     
     _animation()
