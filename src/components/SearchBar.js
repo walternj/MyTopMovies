@@ -14,7 +14,7 @@ export default function searchBar() {
     return(
         <View style={styles.searchBar}>
             <TextInput style={styles.textInput} 
-                placeholder="Rechercher un film..."
+                placeholder="Search a movie..."
                 onSubmitEditing= {() =>_searchFilms()}
                 onChangeText={(text) => _searchTextInputChanged(text)} 
                 autoFocus= {true}
@@ -46,7 +46,9 @@ const styles = StyleSheet.create({
         height: 40,
         paddingLeft: 5,
         fontSize: 20,
-        paddingVertical: 0
+        paddingVertical: 0,
+        backgroundColor: '#faf5e4',
+        color: '#f8b400'
     },
     button: {
         justifyContent: 'center',
@@ -57,5 +59,6 @@ const styles = StyleSheet.create({
     icon: {
         width: 30,
         height: 30,
+        backgroundColor: '#faf5e4'
     }
 })

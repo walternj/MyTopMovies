@@ -20,12 +20,17 @@ const SearchStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: 'Search',
             header: <SearchBar/>,
+         
         }  
     },
     FilmDetail: {
         screen: FilmDetail,
         navigationOptions : {
             title: 'Movie Details',
+            headerTintColor: '#f8b400',
+            headerStyle: {
+                backgroundColor: '#004445'
+            }
         }
     },  
 })
@@ -36,13 +41,21 @@ const FavoritesStackNavigator = createStackNavigator({
       navigationOptions: {
         title: 'My Favorite Movies List',
         headerLeft: <Avatar/>,
+        headerTintColor: '#f8b400',
+        headerStyle: {
+            backgroundColor: '#004445'
+        }
       },
     
     },
     FilmDetail: {
       screen: FilmDetail,
       navigationOptions : {
-        title: 'Movie Details'
+        title: 'Movie Details',
+        headerTintColor: '#f8b400',
+        headerStyle: {
+            backgroundColor: '#004445'
+        }
       }
     },
     
@@ -54,13 +67,20 @@ const HomePopularListStackNavigator = createStackNavigator({
         screen: HomePopularList,
         navigationOptions: {
             headerTitle: ' Top Recent Movies',   
-           
+            headerTintColor: '#f8b400',
+            headerStyle: {
+                backgroundColor: '#004445'
+            }
         }
     },
     FilmDetail: {
         screen: FilmDetail,
         navigationOptions : {
-            title: 'Movie Details'
+            title: 'Movie Details',
+            headerTintColor: '#f8b400',
+            headerStyle: {
+                backgroundColor: '#004445',
+            }
         }
     }
 })
@@ -70,13 +90,21 @@ const ViewedsStackNavigator = createStackNavigator({
       screen: Vieweds,
       navigationOptions: {
         title: 'My List of Viewed Movies',
-        headerRight: <Avatar/>
+        headerRight: <Avatar/>,
+        headerTintColor: '#f8b400',
+        headerStyle: {
+            backgroundColor: '#004445'
+        }
       }
     },
     FilmDetail: {
       screen: FilmDetail,
         navigationOptions : {
-            title: 'Movie Details'
+            title: 'Movie Details',
+            headerTintColor: '#f8b400',
+            headerStyle: {
+                backgroundColor: '#004445'
+            }
         }
     }
 })
@@ -135,9 +163,9 @@ const MoviesTabNavigator = createBottomTabNavigator({
     tabBarOptions: {
         showLabel: false,
         showIcon: true,
-        activeBackgroundColor: '#DDDDDD',
-        inactiveBackgroundColor: '#FFFFFF',
-        
+        activeBackgroundColor: '#015051',
+        inactiveBackgroundColor: '#004445',
+    
     }
 })
 
@@ -145,6 +173,7 @@ const styles = StyleSheet.create({
     icon: {
         width: 30,
         height: 30,
+        tintColor: '#f8b400'
     },
 })
 

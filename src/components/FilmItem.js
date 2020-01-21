@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderBottomWidth: 1,
     borderBottomColor: '#888'
+    
   },
   image: {
     width: 120,

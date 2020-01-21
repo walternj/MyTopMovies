@@ -35,7 +35,8 @@ export default function FilmList(props){
 
 const styles = StyleSheet.create({
     list: {
-        flex: 1
+        flex: 1,
+        backgroundColor: '#faf5e4'
     }
 })
   

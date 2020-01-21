@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
     marginHorizontal: 5,
+    backgroundColor: '#faf5e4'
   },
   avatarContainer: {
     alignItems: 'center'

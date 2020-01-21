@@ -184,6 +184,7 @@ export default function FilmDetail ({ navigation }) {
 const styles = StyleSheet.create({
     main_container: {
         flex: 1,
+        backgroundColor: '#faf5e4'
         
     },
     loading_container: {
