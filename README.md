@@ -10,7 +10,7 @@ Vous pouvez aussi personnaliser votre avatar en rajoutant une photo depuis votre
 
 Vous pouvez l'installer sur votre appareil Android et le tester: https://play.google.com/store/apps/details?id=com.mytopmovies&gl=FR </br></br>
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![MTV Images](https://github.com/walternj/MyTopMovies/blob/master/MTV_capture.png)
 
 
 
