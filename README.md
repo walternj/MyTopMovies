@@ -7,3 +7,10 @@ L'application est capable de récupérer les informations de tous les films disp
 L'application permet aussi de faire une recherche de films par nom, de sauvegarder dans une base de données sur votre smartphone une liste de films déjà vus et de films favoris.</br>
 La possibilité de partager le film par sms, réseaux sociaux email est aussi intégrée. </br>
 Vous pouvez aussi personnaliser votre avatar en rajoutant une photo depuis votre galerie de photo où en prennent une photo avec vos camera intégrées.</br></br>
+
+Vous pouvez l'installer sur votre appareil Android et le tester: https://play.google.com/store/apps/details?id=com.mytopmovies&gl=FR </br></br>
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+
