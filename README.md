@@ -8,7 +8,7 @@ L'application permet aussi de faire une recherche de films par nom, de sauvegard
 La possibilité de partager le film par sms, réseaux sociaux e-mail est aussi intégrée. </br>
 Vous pouvez aussi personnaliser votre avatar en rajoutant une photo depuis votre galerie de photo où en prennent une photo avec vos caméras intégrées.</br></br>
 
-Vous pouvez l'installer sur votre appareil Android et le tester: <a href="https://play.google.com/store/apps/details?id=com.mytopmovies&gl=FR" target="_new">gloogleplay/mytopmusics<a> </br></br>
+Vous pouvez l'installer sur votre appareil Android et le tester: <a href="https://play.google.com/store/apps/details?id=com.mytopmovies&gl=FR" target="_blank">gloogleplay/mytopmusics<a> </br></br>
 
 ![MTV Images](https://github.com/walternj/MyTopMovies/blob/master/MTV_capture.png)
 
